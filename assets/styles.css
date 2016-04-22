@@ -1,0 +1,28 @@
+#perfilWrapper
+{
+    background: transparent;
+    height: 50px;
+    margin-right: 0px;
+    width: auto;
+    
+    padding-right: 30px;
+}
+    #logoPerfil
+    {
+        float: left;
+        height: 50px;
+        width: 50px;
+        border: 1px solid green;
+        background-image: url('./img/perfil.png');
+        background-size: 40px 40px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #nomePerfil
+    {
+        float: left;
+        line-height: 50px;
+        font-size: 23px;
+        text-align: left;
+        padding-right: 10px;
+    }

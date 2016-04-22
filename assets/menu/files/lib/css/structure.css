@@ -1,0 +1,901 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(Raleway-Thin.otf);
+}
+
+body{
+	min-width: 960px;
+	width:960px; 
+	width: auto !important; 
+	background-image:url(../image/bg.jpg);
+	background-repeat:repeat;
+	}
+#top{
+	background:#00993D;/*top da pagina*/
+	background-repeat:repeat-x;
+	width:100%;
+	height:50px;
+	float:left;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0px 3px 10px #888;
+	}
+#safe-top{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:10px;
+	z-index: 9999;
+	}
+.right{
+	width:auto;
+	height:auto;
+	float:right;
+	}
+.left{
+	width:auto;
+	height:auto;
+	float:left;
+	}
+#notifications{
+	background-image:url(../image/perfilbg.png);
+	background-repeat:no-repeat;
+	width:200px;
+	height:60px;
+	float:left;
+	}
+#perfil{
+	/*background-image:url(../image/perfilbg.png);*/
+	background-repeat:no-repeat;
+	width:200px;
+	height:60px;
+	float:left;
+	margin-left:800px;
+	margin-right:0px;
+	}
+#menu{
+	background:#00993D;/*caixa que vai para o menu*/
+	background-repeat:no-repeat;
+	width:auto;
+	height:40px;
+	float:left;
+	margin-left:5px;
+	}
+#menu:hover > a #iconn
+{
+	background-image:url(../image/2t.png);
+}
+#menu:hover > a #menuLabel
+{
+	text-shadow: 0px 0px 1px green;
+}
+#menuLabel
+{
+	float:left;
+	font-family: 'Gadugi' Arial;
+	font-size: 23px;
+	line-height: 38px;
+	color: green;
+}
+
+#logo{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 290px 44px;
+	width:297px;
+	height:50px;
+	float:left;
+	margin-left:85px;
+	}
+#home{
+	background-color:#FFF;
+	width:960px;
+	height:500px;
+	float:left;
+	}
+#contents{
+	width:100%;
+	height:auto;
+	float:left;
+	}
+#center{
+	background-color:#FFF;
+	width:960px;
+	height:500px;
+	margin:auto;
+	margin-top:10px;
+	}
+#iconn{
+	background-image:url(../image/1t.png);
+	background-repeat:no-repeat;
+	background-size: 40px 40px;
+	width:40px;
+	height:40px;
+	float:left;
+	}
+#iconn:hover{
+	background-image:url(../image/2t.png);
+
+	}
+#safeuser{
+	width:196px;
+	height:60px;
+	float:left;
+	padding:5px;
+	}
+#nameuser{
+	float:left; 
+	width:auto; 
+	height:auto; 
+	margin-left:5px;
+	text-align:center;
+	padding:8px;
+	margin-top:7px;
+	}
+#fotouser{
+	float:left;
+	width:50px;
+	height:50px;
+	}
+#fotouser img{
+	border-radius:3px;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+	}
+
+
+
+/*
+	StyloPagina.css
+*/
+
+
+
+ 
+#tabelacreate label{
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: right;
+    width: 120px;
+    line-height: 35px;
+    font-size:14px;
+    cursor: pointer;
+    } 
+ 
+#tabelacreate checkbox{
+    margin-top:10px;
+    }
+ 
+#tabelacreate .input{
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-color: #eaeaea;
+    background: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background: -webkit-gradient(linear, left top, left bottom,
+                color-stop(0.0, #ffffff), color-stop(1.0, #f2f2f2));
+    border: 1px solid #cacaca;
+    font-family: inherit;
+    color: #797979;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 300px;
+    font-weight: bold;
+    }
+ 
+select{
+    border: 1px solid #b9bdc1;
+    padding: 5px;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #797979;
+    }
+ 
+.tabelacreate :focus{
+    -webkit-box-shadow: 0px 0px 4px #aaa;
+    -moz-box-shadow: 0px 0px 4px #aaa;
+    box-shadow: 0px 0px 4px #aaa;
+    }
+ 
+.tabelacreate .gender-fields{
+    padding-top:10px;
+    }
+ 
+   .tabelacreate  span.error {
+    color:red;
+    padding-left:10px;
+    }
+ 
+.tabelacreate .info{
+    margin-left:130px;
+    font-size: 12px;
+    font-style:italic;
+    color: #999;
+    }
+ 
+.tabelacreate  .submit{
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    font-family: arial,verdana,sans-serif;
+    background-color: #dedede;
+    background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+    background: -webkit-gradient(linear, left top, left bottom,
+                color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+    border: 1px solid #dedede;
+    color: #484848;
+    font-size:10px;
+    font-weight: bold;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-left:220px;
+    }
+ 
+/*-- Table design to display data in success view --*/
+ 
+.display_data{
+padding:10px;
+}
+ 
+.display_data .name{
+    font-style: italic;
+    text-decoration:underline;
+    }
+ 
+#display_data tabela{
+    border:1px solid #e5eff8;
+    margin:10px 0px;
+    border-collapse:collapse;
+    }
+ 
+.display_data tr.even{
+    background:#f7fbff
+    }
+ 
+.display_data tr.odd .title {
+    background:#f4f9fe;
+    }
+ 
+.display_data td {
+    border-bottom:1px solid #e5eff8;
+    border-right:1px solid #e5eff8;
+    color:#678197;
+    padding:5px 8px;
+    }
+
+.display_data td.title{
+    font-weight: bold;
+    width:100px;
+    text-align:right;
+    }
+ 
+.display_data td.info{
+    font-style: italic;
+    width:200px;
+    }
+   
+    .default_header {
+    width:60%;
+    margin:20px auto;
+ 
+    }
+ 
+.default_footer {
+    width:60%;
+    /* margin:20px auto; */
+ 
+    }
+    
+.navegacao .links
+    {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-size: 20px;
+    
+}
+   #outorgante_org_emissor
+    {
+    width: 20;  
+    background-color: black;
+    }
+
+#novodespachante
+{
+   
+    /*transition: all ease-in-out 10.0s;*/
+    transition-duration: 10s;
+}
+    #novodespachante.visibleMostrar
+    {
+        display: block;
+    }
+
+input,
+select,
+textarea
+{
+	outline: 0;
+}
+
+
+
+.modal
+{
+	display: none;
+	position: fixed;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.9;
+	z-index: 99999;
+}
+.modal.showModal
+{
+	display: block;
+}
+
+
+
+/*
+	INPUTS ------------------------------------------------------------------------------------------------------------------
+*/
+
+input.input
+{
+	padding: 5px;
+	border: 1px solid #4C4C4C;
+	outline: 0;
+	background: transparent;
+	margin: 1px 0px 1px 0px;
+}
+	input.input:focus
+	{
+		box-shadow: inset 0px 0px 2px #4C4C4C;
+	}
+	input.input:disabled
+	{
+		color: #999999;
+		border: 1px solid #727272;
+	}
+input.input.invalido
+{
+	border: 1px solid #B40000;
+	box-shadow: 0px 0px 1px #B40000;
+}
+	input.input.invalido:focus
+	{
+		box-shadow: inset 0px 0px 2px #B40000, 0px 0px 1px #B40000;
+	}
+
+
+.inputVenda
+{
+	padding: 10px;
+	border: 4px solid #D8D8D8;
+	box-shadow: 0px 0px 1px black;
+	width: 100%;
+	text-align: center;
+	outline: 0;
+	background: transparent;
+	margin: 1px 0px 1px 0px;
+	color: #535B53;
+	font-family: 'Gadugi' Arial;
+	font-size: 22px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+	.inputVenda:hover
+	{
+		border: 4px solid #AFD6AF;
+	}
+	.inputVenda.focused
+	{
+		border: 4px solid #82B582;
+		background: #E8FFE8;
+		box-shadow: 0px 0px 6px #82B582, inset 0px 0px 6px #82B582;
+	}
+
+select.select
+{
+    padding: 5px;
+    border: 1px solid #4C4C4C;
+    outline: 0;
+    background: transparent;
+    margin: 1px 0px 1px 0px;
+    width:183px;
+}
+    select.select:focus
+    {
+        box-shadow: inset 0px 0px 2px #4C4C4C;
+    }
+select.select.invalido
+{
+    border: 1px solid #B40000;
+    box-shadow: 0px 0px 1px #B40000;
+}
+    select.select.invalido:focus
+    {
+        box-shadow: inset 0px 0px 2px #B40000, 0px 0px 1px #B40000;
+    }
+
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  position: relative;
+  outline: 1px solid #4C4C4C;
+  outline-offset: -2px;
+  border: 0px;
+}
+
+
+
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+	DIV NOVO/EDITAR ------------------------------------------------------------------------------------------------------------------
+*/
+
+.novoEditarDiv
+{
+	display: none;
+	width: 960px;
+    height: auto;
+    margin: auto;
+    background: #eaeaea;
+    padding: 10px;
+	border-bottom: 3px solid #00993D;
+	margin-bottom:10px;
+	box-shadow: 0px 0px 2px black;
+}
+	.novoEditarDiv .createnovotitle
+	{
+		font-size: 18px;
+		color: #000;
+		text-shadow: 0px 0px 1px #000;
+	}
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+	GERAR KITS ------------------------------------------------------------------------------------------------------------------
+*/
+
+#gerarKitOpt
+{
+    display: none;
+    position: absolute;
+    width: 800px;
+    height: auto;
+    border-bottom: 3px solid #00993D;
+    background: #eaeaea;
+    top: 50px;
+    left: 50%;
+    margin-left: -400px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    z-index: 999999;
+    color: #353535;
+}
+	#gerarKitOpt.show
+	{
+	    display: block;
+	}
+
+	#divNovaSeq
+	{
+		display: none;
+		width: 100%;
+		height: auto;
+	}
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+	BOTOES NOVO ------------------------------------------------------------------------------------------------------------------
+*/
+
+.formButton
+{
+	font-size: 16px;
+	font-family:'Gadugi' Arial;
+	color:#ffffff;
+	
+	border:0px solid #ffffff;
+	box-shadow:2px #000000;
+	-moz-box-shadow:2px #000000;
+	-webkit-box-shadow:2px #000000;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	
+	padding:6px 20px;
+	cursor:pointer;
+	margin-top:15px;
+	outline: 0;
+	box-shadow: 0px 0px 1px #000;
+}
+.formButton.submit
+{
+	background:#00993D;
+	color: #F2F2F2;
+	min-width:150px;
+	transition: all .2s;
+}
+	.formButton.submit:hover
+	{
+		background:#00B244;
+		color: #fff;
+		box-shadow: 0px 0px 2px #000;
+	}
+	.formButton.submit:active
+	{
+		background:#00CC4A;
+		color: #00872F;
+	}
+	.formButton.submit.submitted
+	{
+		background:#00CC4A;
+		color: #00872F;
+		cursor: default;
+	}
+
+.formButton.cancel
+{
+	background:#BCCCB9;
+	color: #3F3F3F;
+	width:100px;
+	transition: all .2s;
+}
+	.formButton.cancel:hover
+	{
+		background:#96B290;
+		color: #000;
+		box-shadow: 0px 0px 2px #000;
+	}
+	.formButton.cancel:active
+	{
+		background:#81997B;
+		color: #495646;
+	}
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+	SERVIÇO :: VENDAS --------------------------------------------------------------------------------------------------------------------
+*/
+
+#caixaWrapper{
+	padding: 0px 10px 10px 10px;
+    background: #f2f2f2;
+    width: 100%;
+    height: auto;
+    font-family: 'Gadugi' Arial;
+    color: #3B3F3B;
+    border-bottom: 3px solid green;
+}
+	#caixaBody
+	{
+		overflow: auto;
+		width: 100%;
+	}
+		#caixaBodyTotais
+		{
+			float: left; 
+			width: 30%; 
+			padding: 6px 6px 0px 0px;
+		}
+			#qtdItemWrapper
+			{
+				overflow: auto;
+				width: 100%;
+			}
+				#qtdItemValue
+				{
+					float: left;
+					width: 60%;
+				}
+				#qtdItemAdd
+				{
+					float: right;
+					width: 38%;
+				}
+					#qtdItemAdd input
+					{
+						border: 0;
+						width: 100%;
+						height: 56px;
+					    font-weight:bold;
+					    font-size: 32px;
+					    font-family: 'Gadugi' Arial;
+						box-shadow: inset 0px -2px 1px rgba(0,0,0,0.27), 0px 1px 1px rgba(0,0,0,0.27);
+						transition: all 0.1s linear;
+						-webkit-transition: all 0.1s linear;
+					    -moz-transition: all 0.1s linear;
+					    -o-transition: all 0.1s linear;
+						color: #666666;
+						background: #D8D8D8;
+						cursor: pointer;
+					}
+						#qtdItemAdd input:hover
+						{
+							color: #7A7A7A;
+							background: #C6C6C6;
+						}
+						#qtdItemAdd input:active
+						{
+							box-shadow: inset 0px 2px 1px rgba(0,0,0,0.27);
+							background: #B2B2B2;
+						}
+						#qtdItemAdd input.disabled
+						{
+							box-shadow: inset 0px 2px 1px rgba(0,0,0,0.27);
+							background: #B2B2B2;
+							color: #7F7F7F;
+							cursor: default;
+						}
+
+
+
+			#totalItensWrapper
+			{
+				overflow: auto;
+				width: 100%;
+			}
+				#totalItensLabel
+				{
+					float: left;
+					width: 50%; 
+					text-align: right;
+					padding: 10px;
+					font-weight: bold;
+				}
+				#qtdItens
+				{
+					float: left;
+					width: 50%; 
+					padding: 10px 0px 10px 10px;
+				}
+			#valorVendaWrapper
+			{
+				overflow: auto;
+				width: 100%;
+				padding-bottom: 10px;
+			}
+				#valorVendaLabel
+				{
+					float: left;
+					width: 50%; 
+					text-align: right;
+					padding: 10px;
+					font-weight: bold;
+				}
+				#totalCompra
+				{
+					float: left;
+					width: 50%; 
+					padding: 10px 0px 10px 10px;
+				}
+			#buttonsWrapper
+			{
+				width: 100%;
+				height: 53px;
+			}
+				#buttonsWrapper input
+				{
+					float: left;
+					font-family: 'Gadugi' Arial;
+					font-size: 18px;
+					height: 53px;
+					border: 0;
+					box-shadow: inset 0px -2px 1px rgba(0,0,0,0.27), 0px 1px 1px rgba(0,0,0,0.27);
+					transition: all 0.1s linear;
+					-webkit-transition: all 0.1s linear;
+				    -moz-transition: all 0.1s linear;
+				    -o-transition: all 0.1s linear;
+				}
+					#buttonsWrapper input:active
+					{
+						box-shadow: inset 0px 2px 1px rgba(0,0,0,0.27);
+					}
+				#buttonsWrapper #cancelarCompraButton
+				{
+					width: 40%;
+					background: #D8D8D8;
+					color: #666666;
+				}
+					#buttonsWrapper #cancelarCompraButton:hover
+					{
+						color: #7A7A7A;
+						background: #C6C6C6;
+					}
+					#buttonsWrapper #cancelarCompraButton:active
+					{
+						background: #B2B2B2;
+					}
+				#buttonsWrapper #finalizarCompraButton
+				{
+					width: 60%;
+					background: #82B582;
+					font-weight: bolder;
+					color: #3E563E;
+				}
+					#buttonsWrapper #finalizarCompraButton:hover
+					{
+						color: #537253;
+						background: #73A073;
+					}
+					#buttonsWrapper #finalizarCompraButton:active
+					{
+						background: #648C64;
+					}
+			
+		#caixaBodyLista
+		{
+			float: left; 
+			width: 70%; 
+			padding: 6px 0px 0px 0px;
+		}
+			#cupomWrapper
+			{
+				padding: 5px;
+				background: #D8D8D8;
+				width: 100%;
+				min-height: 200px;
+				box-shadow: 0px 0px 2px black;
+			}
+
+#pagamento
+{
+    position: absolute;
+    padding: 20px;
+    display: none;
+    height: auto;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    top: 50px;
+    z-index: 9999999;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px black;
+    color: #000;
+    border-bottom: 3px solid green;
+}
+#pagamento.mostrar
+{
+    display: block;
+}
+	#aPagarLabel
+	{
+		border-bottom: 1px solid black; 
+		font-size: 20px; 
+		font-family: 'Gadugi' Arial;
+	}
+	#aPagarVal
+	{
+		border-bottom: 1px solid black; 
+		font-size: 26px; 
+		text-align: right; 
+		font-family: 'Gadugi' Arial;
+	}
+	#valor_entregueWrapper:before,
+	#trocoWrapper:before
+	{
+		content: 'R$';
+		display:inline-block;
+		font-size: 22px;
+		color: black;
+		line-height: 30px;
+	}
+	#valor_entregue,
+	#troco
+	{
+		width: 100px;
+		padding: 5px;
+		border: 0;
+		background: transparent;
+		border: 1px solid black;
+	}
+		#valor_entregue:focus
+		{
+			box-shadow: inset 0px 0px 2px black;
+		}
+	
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+	CONFIGURAÇÕES --------------------------------------------------------------------------------------------------------------------
+*/
+
+
+#confTitle
+{
+	display: block; 
+	width: 100%; 
+	height: auto;
+}
+
+#confWrapper
+{
+	display: block;
+	width: 100%;
+	height: auto;
+	color: black;
+}
+	.confMenu
+	{
+		padding: 15px; 
+		width: 48%; 
+		height: auto; 
+		background: #f2f2f2;
+		transition: all 0.2s linear;
+		border-bottom: 2px solid green;
+		box-shadow: 0px 0px 1px black;
+		margin-bottom: 20px;
+	}
+		.confMenu hr
+		{
+			border: 1px solid #CCCCCC;
+			box-shadow: 0px 1px 1px #CCCCCC;
+		}
+		.confSubTitle
+		{
+			color: green;
+			font-size: 24px;
+			font-family: 'Gadugi' Arial;
+		}
+		.confSubSubTitle
+		{
+			color: #4C4C4C;
+			text-shadow: 0px 0px 1px #4C4C4C;
+			font-size: 18px;
+			font-family: 'Gadugi' Arial;
+		}
+		
+
+
+
+
+
+/*
+	-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+.arrow_box {
+	position: relative;
+	background: transparent;
+}
+.arrow_box:before {
+	
+	left: -5px;
+	top: 7px;
+	
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 5px 0 5px 8.7px;
+	border-color: transparent transparent transparent #3d3d3d;
+	content: " ";
+
+	position: absolute;
+	pointer-events: none;
+}
+

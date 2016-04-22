@@ -1,0 +1,425 @@
+/*******************************************************************************************************************************/
+/** TABELA **************************************************************************************************/
+/*******************************************************************************************************************************/
+
+.table 
+{
+    width: 100%;
+    margin:0; 
+    padding:0;
+    font-family: 'Gadugi' Arial;  
+    color: #000;
+}
+
+
+.table,  th, td {
+
+    border-collapse: collapse;
+
+}
+
+.captionlistar {
+
+    margin:auto; 
+
+    padding:0;
+
+    height: 40px;
+
+    line-height: 40px;
+
+    text-indent: 28px;
+
+    font-family: Times, Arial, sans-serif;  
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #000;
+
+    text-align: center;
+
+    border-bottom: dashed 1px #c2c2c2;
+}
+
+
+
+/* HEAD */
+
+
+
+.table thead {
+
+
+    border: none;
+
+}
+
+.table thead  th {
+
+    height: 32px;
+
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #429cd3;
+
+    background-image: black;
+
+    border-left:solid 1px #429cd3;
+
+    border-right:solid 1px #429cd3; 
+
+    border-collapse: collapse;
+   
+
+}
+
+
+
+/* BODY */
+
+
+
+.table tbody tr {
+
+    background: #92CC92;
+    opacity: 0.8;
+    font-size: 13px;
+
+}
+
+.table tbody tr.odd {
+
+    background: #F0FFFF;
+
+    /*#429cd3*/
+}
+
+.table tbody tr:hover, 
+.table tbody tr.odd:hover {
+
+    background: #ffffff;
+
+}
+
+.table thead th, .table tbody tr td {
+
+    padding: 6px;
+
+    border: solid 1px #007D00; /*muda a cor das bordas*/
+
+}
+
+.table thead  th {
+
+    background: #00993D;
+
+    font-family: "Gadugi", Arial;  
+
+    font-size: 16px;
+
+    padding: 6px;
+
+    text-align: center;
+
+    font-weight: normal;
+
+    color: #FFFFFF;
+
+    border-bottom: solid 1px #007D00;
+
+
+
+}
+
+.table tbody tr:hover {
+
+    background: #72B272;
+    opacity: 1;
+
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+/*******************************************************************************************************************************/
+/** TABELA RELATORIO KITS **************************************************************************************************/
+/*******************************************************************************************************************************/
+
+#tableRelatorio
+{
+    width: 100%;
+    font-family: 'Gadugi' Arial; 
+    color: #000;
+    font-weight: normal;
+}
+#tableRelatorio tbody tr td
+{
+    transition: all 0.1s linear;
+}
+#tableRelatorio tbody tr td.hover,
+#tableRelatorio tbody tr:hover td
+{
+    background: #ADD8AD;
+    font-weight: bold;
+    border: 1px solid #82B282;
+}
+    #tableRelatorio thead 
+    {
+        border: none;
+    }
+        #tableRelatorio thead th
+        {
+            height: 32px;
+            line-height: 13px;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 4px;
+            font-family: "Gadugi", Arial;  
+            font-size: 12px;
+            min-width: 40px;
+            cursor: default;
+        }
+        #tableRelatorio thead th.titleMain
+        {
+            color: #333333;
+            border: 0px;
+            background: transparent;
+            transition: all 0.1s linear;
+        }
+        #tableRelatorio thead th.titleDia
+        {
+            color: #fff;
+            border: 1px solid #007D00;
+            background: #00993D;
+            transition: all 0.1s linear;
+        }
+            #tableRelatorio thead th.titleDia.hover 
+            {
+                background: #007222;
+                font-weight: bold;
+            }
+
+
+
+
+    #tableRelatorio tbody tr:nth-child(odd) 
+    {
+        background: #f2f2f2;
+        font-size: 13px;
+    }
+    #tableRelatorio tbody tr:nth-child(even) 
+    {
+        background: #D8D8D8;
+        font-size: 13px;
+    }
+    #tableRelatorio tbody tr td 
+    {
+        height: 30px;
+        border: solid 1px #A0A0A0; /*muda a cor das bordas*/
+    }
+    #tableRelatorio tbody tr td.qtd:hover
+    {
+        font-weight: bold;
+    }
+
+#tableRelatorio tfoot tr td
+{
+    transition: all 0.1s linear;
+}
+    #tableRelatorio tfoot tr td.hover
+    {
+        background: #007222;
+        font-weight: bold;
+    }
+
+    #tableRelatorio tfoot tr td.footMain
+    {
+        background: transparent;
+    }
+    #tableRelatorio tfoot tr td.footDia
+    {
+        background: #00993D;
+    }
+
+
+
+
+
+
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+
+
+
+/* LINKS */
+
+
+
+#table a {
+
+    color: #FF6600;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    border-bottom: solid 1px white;
+
+}
+
+#table a:hover {
+
+    color: #FF9900;
+
+    border-bottom: none;
+
+}
+
+
+.icone{
+    text-align: center;
+}
+.icone a
+{
+    height: 25px;
+    width: 25px;
+}
+.icone a img
+{
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.icone a img:hover
+{
+    background: #83AD83;
+    transform: scale(1.3);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari and Chrome */
+}
+.icone a img:active
+{
+    transform: scale(1.1);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+}
+
+
+#centro{
+
+    width: 960px;
+    height: auto;
+    margin: auto;
+     
+}
+
+/*
+    TABELA NOVO -------------------------------------------------------------------------------------------------------------
+*/
+
+.tableNovo
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tableNovo tr td.label
+{
+    width: 170px;
+    text-align: right;
+    padding-right: 10px;
+}
+    .tableNovo tr td label
+    {
+        color: #565656;
+        width: auto;
+    }
+
+
+
+/*
+ PAGE TITLE -------------------------------------------------------------------------------------------------------------
+*/
+
+.pageTitle
+{
+    font-family: 'Raleway' 'Gadugi';
+    color: green;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/*
+ BOTAO NOVO ------------------------------------------------------------------------------------------------------------
+*/
+
+.newButton
+{
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 40px;
+
+}
+.newButton.activeNovoButton > .botaonovolistar,
+.newButton.activeNovoButton > .botaonovolistar:hover,
+.newButton.activeNovoButton > .botaonovolistar:active
+{
+    background-color:#628E62;
+    box-shadow: inset 0 3px 0 rgba(0,0,0,0.27);
+    cursor: default;    
+}
+
+    .botaonovolistar {
+        background-color:#68A568;
+        width:inherit;
+        height: 40px;
+        border-radius: 2px;
+        transition: all .2s;
+        box-shadow: 0px 0px 1px black;
+    }
+    .botaonovolistar:hover 
+    {
+        background-color:#6CB56C;
+        box-shadow: inset 0 -3px 0 rgba(0,0,0,0.27), 0px 0px 1px black;
+    }
+    .botaonovolistar:active 
+    {
+        background-color:#628E62;
+        box-shadow: inset 0 3px 0 rgba(0,0,0,0.27), 0px 0px 1px black;
+    }
+        .botaonovolistar .botaonovoimg
+        {
+            float: left;
+            background-image: url('../img/add.png');
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 38px;
+            height: 38px;
+        }
+        .botaonovolistar .botaonovolabel
+        {
+            float: left;
+            line-height: 40px;
+            color: #000;
+            font-size: 22px;
+        }
+SELECT.errorsel{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+SELECT.validosel{
+	background: #E6E7E8;
+	border-color: #878787;
+}

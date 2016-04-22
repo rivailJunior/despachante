@@ -1,0 +1,165 @@
+
+/* General Styles
+----------------------------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../menu/files/lib/css/Raleway-Thin.otf);
+}
+
+html 
+{
+	min-height: 100%;
+}
+body 
+{
+	height: 100%;
+	background:url(../menu/files/lib/image/bg.jpg);
+}
+#wrapper 
+{
+	padding: 20px;
+	height: 100%;
+	width: 350px;
+	height: auto;
+	overflow: auto;
+	margin: 70px auto;
+	position: relative;
+	background: #f2f2f2;
+	border-bottom: 3px solid green;
+	box-shadow: 0px 0px 1px black;
+}
+
+	#wrapper span 
+	{
+		display: block;
+		position:relative;
+		font-family: 'Raleway','Gadugi';
+	    color: green;
+	    font-size: 32px;
+	    text-transform: uppercase;
+	    text-align: center;
+	    margin: 10px 0px 30px 0px;
+	}
+	#wrapper .inputWrapper
+	{
+		display:block;
+		width:250px;
+		background:transparent;
+		border:1px solid #8C8C8C;
+		margin: auto;
+		transition: all 0.2s linear;
+	}
+	#wrapper .inputWrapper.focused
+	{
+		box-shadow: inset 0px 0px 2px #8C8C8C;
+	}
+
+		#wrapper .inputLogin
+		{
+			color:#666666;
+			font-family:'Gadugi', Arial;
+			font-size:20px;
+			padding:10px 10px 10px 35px;
+			outline: 0;
+			background:transparent;
+			border: 0;
+			width: 205px;
+		}
+		#wrapper .inputWrapper:before
+		{
+			position: absolute;
+			content: '';
+			background-repeat: no-repeat;
+			width: 20px;
+			height: 20px;
+			margin: 13px 0px 0px 10px;
+		}
+			#wrapper #inputWrapperCPF:before
+			{
+				background-image: url('../img/mailicon.png');
+			}
+			#wrapper #inputWrapperSENHA:before
+			{
+				background-image: url('../img/passicon.png');
+			}
+
+	#wrapper .spacer
+	{
+		border: 0;
+		width: 100%;
+		height: 10px;
+		background: transparent;
+	}
+
+	#wrapper .errorWrapper
+	{
+		width: 250px;
+		height: 50px;
+		border: 0;
+		margin: 10px auto 10px auto;
+	}
+		#wrapper .errorWrapper div
+		{
+			width: 100%;
+			height: auto;
+			background: #EFBABA;
+		}
+			#wrapper .errorWrapper .erro
+			{
+				display: block;
+				height: 25px;
+				line-height: 25px;
+				text-align: center;
+				font-family: 'Gadugi' Arial;
+				font-weight: lighter;
+				font-size: 13px;
+				color: #9E0000;
+			}
+
+	#wrapper #submit
+	{
+		display: block;
+		position:relative;
+		margin: auto;
+		font-size: 16px;
+		font-family: 'Gadugi' Arial;
+		color:#f2f2f2;
+		
+		border:0px;
+		box-shadow:2px #000000;
+		-moz-box-shadow:2px #000000;
+		-webkit-box-shadow:2px #000000;
+
+		border-radius:2px;
+		-moz-border-radius:2px;
+		-webkit-border-radius:2px;
+		
+		padding:6px 20px;
+		cursor:pointer;
+		outline: 0;
+		box-shadow: 0px 0px 1px #000000;
+
+		width:300px;
+		height:40px;
+
+		background:#00993D;
+		transition: all .2s;
+	}
+		#wrapper #submit:hover
+		{
+			background:#00B244;
+			color: #fff;
+			box-shadow: 0px 0px 2px #000;
+		}
+		#wrapper #submit:active
+		{
+			background:#00CC4A;
+			color: #00872F;
+		}
+		#wrapper #submit.submitted
+		{
+			background:#00CC4A;
+			color: #00872F;
+			cursor: default;	
+		}

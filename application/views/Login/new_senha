@@ -1,0 +1,71 @@
+
+<div class="container">
+
+    <div class="row">
+      <div class="span4 offset4 well">
+
+        <?php echo form_open('Login/');?>
+
+    <div id="wrapper">
+    <div id="wrappertop"></div>
+
+    <div id="wrappermiddle">
+
+      <h2>Login</h2>
+
+      <div id="username_input">
+
+        <div id="username_inputleft"></div>
+
+        <div id="username_inputmiddle">
+        
+          <input type="text" id="url" placeholder="Matricula" name="matricula" value="<?php echo set_value('matricula')?>">
+          <img id="url_user" src="<?php echo base_url('/assets/img/mailicon.png'); ?>" alt="">
+        
+        </div>
+
+        <div id="username_inputright"></div>
+
+      </div>
+
+      <div id="password_input">
+
+        <div id="password_inputleft"></div>
+
+        <div id="password_inputmiddle">
+      
+          <input type="password" id="url" placeholder="Senha"  name="senha"  value="<?php echo set_value('senha')?>">
+          <img id="url_password" src="<?php echo base_url('/assets/img/passicon.png'); ?>" alt="">
+      
+        </div>
+
+        <div id="password_inputright"></div>
+
+      </div>
+
+      <div id="submit">
+        <input type="image" src="<?php echo base_url('/assets/img/submit_hover.png'); ?>" id="submit1" value="Entrar">
+        <input type="image" src="<?php echo base_url('/assets/img/submit.png'); ?>" name="submit" id="submit2" class="btn btn-info btn-block" value="Sign In">
+      </div>
+
+
+      <div id="links_left">
+
+      <a href="#">Esqueceu a Senha?</a>
+
+      </div>
+
+    </div>
+
+    <div id="wrapperbottom"></div>
+    <?php
+ 
+		echo "<div class='errorBG'>".validation_errors('<a class="erros">', '<br></a>')."</div>"; 
+
+      ?>
+    
+  </div>
+        </form>
+      </div>
+    </div>
+  </div>
